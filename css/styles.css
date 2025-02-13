@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "figtree--medium";
+    src: url("../assets/fonts/static/Figtree-Medium.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "figtree--extraBold";
+    src: url("../assets/fonts/static/Figtree-ExtraBold.ttf") format("ttf");
+}
+
+:root {
+    --color-white:#FFFFFF;
+    --color-yellow:#F4D04E;
+    --color-gray--dark: #111111;
+    --color-gray--medium:#6B6B6B;
+    --font-bold: "figtree--extraBold", sans-serif;
+    --font-medium: "figtree--medium", sans-serif;
+    --font-size-title: clamp(1.125rem, 0.574vw + 1.01rem, 1.5rem); 
+    --font-size-date-category: clamp(0.75rem, 0.191vw + 0.712rem, 0.875rem); 
+    --font-size-author: .875rem;
+    --font-size-desc: clamp(0.875rem, 0.191vw + 0.837rem, 1rem);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card {}
+.card__text-wrapper {}
+.card__content {}
+.card__title {}
+.card__desc {}
+.card__meta {}
+.card__meta-category {}
+.card__meta-date {}
+.card__author {}
+.card__author-avatar-wrapper {}
+.card__author-avatar {}
+.card__author-name {}
+.card__media-wrapper {}
+.card__media {}
+
+
+/* Attribution */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
