@@ -1,56 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="./css/styles.css">
-  
-  <title>Frontend Mentor | Blog preview card</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
 
-  
-</head>
-<body>
-<main>
+    <title>Frontend Mentor | Blog preview card</title>
+  </head>
+  <body>
+    <main>
+      <article class="card">
+        <div class="card__text-wrapper">
+          <div class="card__content">
+            <h3 class="card__title">HTML & CSS foundations</h3>
+            <p class="card__desc">
+              These languages are the backbone of every website, defining
+              structure, content, and presentation.
+            </p>
+          </div>
+          <div class="card__meta">
+            <span class="card__meta-category">Learning</span>
+            <time class="card__meta-date" datetime="2023-12-21 09:00"
+              >21 Dec 2023</time
+            >
+          </div>
+        </div>
 
-<article class="card">
-  <div class="card__text-wrapper">
-    <div class="card__content">
-      <h3 class="card__title">HTML & CSS foundations</h3>
-      <p class="card__desc">These languages are the backbone of every website, defining structure, content, and presentation.</p>
-    </div>
-    <div class="card__meta">
-      <span class="card__meta-category">Learning</span>
-      <time class="card__meta-date" datetime="2023-12-21 09:00">21 Dec 2023</time>
-    </div>
-  </div>
+        <div class="card__author">
+          <div class="card__author-avatar-wrapper">
+            <img
+              src="./assets/images/image-avatar.webp"
+              alt="Greg Hopper avatar picture"
+              class="card__author-avatar"
+            />
+          </div>
+          <span class="card__author-name">Greg Hooper</span>
+        </div>
 
-  <div class="card__author">
-    <div class="card__author-avatar-wrapper">
-      <img src="./assets/images/image-avatar.webp" alt="Greg Hopper avatar picture" class="card__author-avatar">
-    </div>
-    <span class="card__author-name">Greg Hooper</span>
-  </div>
+        <div class="card__media-wrapper">
+          <img
+            class="card__media"
+            alt="Abstract illustration"
+            src="./assets/images/illustration-article.svg"
+          />
+        </div>
+      </article>
 
-  <div class="card__media-wrapper">
-    <img class="card__media" alt="Abstract illustration" src="./assets/images/illustration-article.svg">
-  </div>
-</article>
-
-
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</main>
-
-
-
-
-
-
-  
-</body>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/janikjczcz" target="_blank"
+          >Jaroslav Janik</a
+        >.
+      </div>
+    </main>
+  </body>
 </html>
