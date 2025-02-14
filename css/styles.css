@@ -13,8 +13,10 @@
   --color-yellow: #f4d04e;
   --color-gray--dark: #111111;
   --color-gray--medium: #6b6b6b;
-  --font-bold: "figtree--extraBold", sans-serif;
+  --font-extraBold: "figtree--extraBold", sans-serif;
   --font-medium: "figtree--medium", sans-serif;
+  --font-weight-extraBold: 800;
+  --font-weight-medium: 500;
   --font-size-title: clamp(1.125rem, 0.574vw + 1.01rem, 1.5rem);
   --font-size-date-category: clamp(0.75rem, 0.191vw + 0.712rem, 0.875rem);
   --font-size-author: 0.875rem;
@@ -128,6 +130,7 @@ main {
   padding: var(--space-xs) var(--space-m);
   background-color: var(--color-yellow);
   border-radius: var(--space-xs);
+  font-weight: var(--font-weight-extraBold);
 }
 .card__meta-category,
 .card__meta-date {
@@ -137,13 +140,14 @@ main {
 .card__title,
 .card__meta-category,
 .card__author-name {
-  font-family: var(--font-bold);
+  font-family: var(--font-extraBold);
   color: var(--color-gray--dark);
-  font-weight: bold;
+  font-weight: var(--font-weight-extraBold);
 }
 .card__desc,
 .card__meta-date {
   font-family: var(--font-medium);
+  font-weight: var(--font-weight-medium);
 }
 
 .card__author {
