@@ -114,10 +114,10 @@ main {
 }
 
 .card__title a {
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  color: inherit;
+  font-family: var(--font-extraBold);
+  font-size: var(--font-size-title);
+  font-weight: var(--font-weight-extraBold);
+  color: var(--color-gray--dark);
   text-decoration: none;
 }
 .card__desc {
