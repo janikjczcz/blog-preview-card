@@ -102,6 +102,8 @@ main {
 }
 
 .card__title a {
+  font-family: inherit;
+  font-size: inherit;
   color: inherit;
   text-decoration: none;
 }

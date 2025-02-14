@@ -43,6 +43,7 @@ Users should be able to:
 ### What I learned
 
 Added focus styles on top of the required hover style.
+
 Used "clickable parent" technique for the card.
 
 ## Author
