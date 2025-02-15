@@ -82,9 +82,14 @@ main {
   inset: 0;
   z-index: 1;
 }
-.card:focus-within,
-.card:hover {
+
+.card:focus-within {
   box-shadow: 0 0 0 8px var(--color-gray--dark);
+}
+
+.card:hover {
+  box-shadow: 16px 16px 0 0 #000;
+  transition: all 0.3s ease;
 }
 
 .card:focus-within h2,
@@ -117,7 +122,7 @@ main {
   font-family: var(--font-extraBold);
   font-size: var(--font-size-title);
   font-weight: var(--font-weight-extraBold);
-  color: var(--color-gray--dark);
+  color: inherit;
   text-decoration: none;
 }
 .card__desc {
